@@ -1,0 +1,14 @@
+Desarrollo web Front-end
+Visual Studio code
+    Prettier
+    Live server
+    path intellisense
+    live server preview (extension para comenzar)
+extensiones para trabajar JavaScript en vscode
+    quokka.js
+    bracket pair v2
+    eslint
+    debugger for
+    better comments
+    intellicode
+    Quokka Statusbar Buttons

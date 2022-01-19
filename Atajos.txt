@@ -1,0 +1,42 @@
+Herramientas tics
+tomar capturas de pantallas en windows
+    shift + windows + s
+Para llamar el teclado por pantalla
+    windows + r 
+        OSK
+ATAJOS
+    windows + d     ocultar ventanas activas
+    windows + i     abrir panel de configuracion
+    alt + enter     presionar esto en un archivo abre sus propiedades
+    windows + x     varias opciones
+    windows + t     movilizarme en barra de tareas
+NAVEGADORES WEB
+    CTRL + t        nueva pestaña
+    ctrl + n        nueva ventana independiente
+    ctrl + w        cerrar pestaña activa
+    ctrl + shift + t    recuperar pestaña cerrada
+    ctrl + tab      navegar entre pestañas
+    ctrl + L        Iremos barra de direcciones
+    ctrl + r        recargar
+    ctrl + f        buscar
+    ctrl + d        agregar pagina en favoritos
+    ctrl + h        historial
+    ctrl + j        descargas
+ATAJOS MICROSOFT WORD
+    CTRL + Q        alinear derecha
+    ctrl + d        alinear izquierda
+    ctrl + t        alinear centro
+    ctrl + j        Parrafo justificado
+    ctrl + m        crear nueva diapositiva
+    shift + f5      presentacion de la diapositiva
+    inicio          inicio de la presentacion
+    ctrl + alt + v  dividir en dos un documento
+    f4              repetir ultima accion
+    f2 -> enter     mover parrafos
+PLugins extensiones
+    one tab         convertir en listas las pestañas
+    paint tool      editar imagen en linea
+pdf
+    programa pdf24tool  mejor
+    
+     

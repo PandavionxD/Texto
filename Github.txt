@@ -1,0 +1,58 @@
+                        CURSO DE GIT Y GITHUB PLATZI
+1.Iniciar el repositorio(carpeta)
+    Git init
+
+    2. Cada vez que se hace modificaciones esta sin rastrear (untracking)
+
+3. Para hacer un rastreo es
+    git add .   aqui entra en un area de staggin (en memoria)
+    git rm .    para quitar de la memoria y este sin rastrear los archivos
+
+4 Para entrar en repositorio y guardar los cambios
+    git commit -m "mensaje del cambio que realizas" (en base de datos de git en la rama principal)
+
+5 Configurar GITHUB
+    git config --list   ver configuracion de GIT
+    git config --global user.name "Alex Daniel"
+    git config --global user.email "alex.adar93@gmail.com"
+    git config -l
+
+6. Ver historia del archivos y ves identificador de commits
+    git log nombreArchivo.txt
+    git log --stat
+
+7. Ver cambios del archivos entre uno anterior
+    git show nombreArchivo.txt
+
+8. Ver cambios entre commits
+    git diff xxxxxxxxxxxxx xxxxxxxxxxxxx
+    xxxxxxxxxx(identificador de commits)
+
+9. Regresar a un estado anterior
+    git reset xxxxxxxxxxxxxxxxxxx --hard          # es el mas peligrosopero mas usado
+
+10 Ver el archivo en un estado anterior de commit
+    git checkout xxxxxxxxxxxxxxxxxxxx historia.txt
+    git checkout master historia.txt    -> volver a la historia reciente
+
+11.Agregar repositorio remoto
+    git remote add origin (http) 0 (ssh)
+    origin va ser nuestro repositorio externo github
+    git remote
+    git remote -v
+
+12.Forzar el pull
+    git pull origin master --allow-unrelated-histories
+
+13. ahora hacemos el push
+    enviar al repositorio de Github
+
+14. Crear llave publica y privada
+    ssh-keygen -t rsa -b 4096 -C "(correo electronico tuyoo)"
+
+15. Verificar que el servidor de llaves este prendido
+    eval $(ssh-agent -s)
+
+16. Cambiar url de origin
+    git remote set-url origin (url ssh)
+

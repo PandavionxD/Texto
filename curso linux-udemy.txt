@@ -1,0 +1,156 @@
+informacion del sistema
+sudo lshw
+lshw -C cpu
+dnidecode   obtiene informacion de la bios
+lshw        obtiene informacion del sistema
+free        saber cuanta memoria tengo
+lspci       saber bus
+id          ver grupo
+whoami      quien soy
+top         gestor de procesos
+last        conexiones sastifactorias
+lastb       conexiones insatisafactorios
+vnstat      memoria depende de bufers
+ifconfig -a    informacion sobre interfaz de red
+ip addr     
+
+comando find
+find . -name a.*
+wget descargar archivos
+curl descargar archivos
+history     nano .bashrc para alterar las lineas del codigo
+dd          escribir archivos iso o hacer respaldo
+nano        editor de texto simple en la terminal
+
+Tipos de rutas
+absolutas   -> dentro del directorio donde te encuentras
+relativas   -> dentro de otro directorio
+
+Usuarios y ficheros importantes
+1 ROOT                      identificador unico 0
+2 USUARIOS ESPECIALES       identificador 1-100
+3 USUARIOS NORMALES         identificadores >500
+FICHEROS IMPORTANTES
+    cat /etc/passwd     maneja cuentas
+    cat /etc/shadow     ver contraseñas de usuarios
+    cat /etc/group      ver grupos de cuentas
+
+gestion de usuarios
+    useradd --help
+    sudo useradd juan -m
+    cat /etc/passwd | grep "juan"
+cambiar de shell
+    usermod --help
+eliminar usuarios
+    userdel --help
+
+
+GESTION DE GRUPOS
+    groupadd --help
+    CAMBIAR IDENTIFICADOR DE GRUPO
+    sudo groupmod -g 2000 grupocreado*
+    ELIMINAR EL GRUPO CREADO
+    sudo groupdel grupocreado*
+    AGREGAR USUARIOS A UN GRUPO
+    sudo adduser alex grupocreado*
+    QUITAR USUARIOS DE UN GRUPO
+    sudo deluser alex grupocreado*
+
+
+COMANDOS DE GESTION DE DIRECTORIOS
+    mkdir ->    crear directorios
+    pwd ->      donde estoy
+    ls ->       listar directorio
+    rmdir ->    borra un directorio vacio
+
+
+COMANDOS DE GESTION DE FICHEROS
+    CREAR FICHEROS
+        touch fichero.txt*
+        nano fichero.txt*
+    LISTAR CONTENIDO DE UN FICHERO
+        cat fichero.txt*
+    CREAR VARIOS ARCHIVOS A LA VEZ
+        touch ejemplo ejemplo2 ejemplo3
+    BORRAR TODOS LOS ARCHIVOS
+        rm *
+    COPIAR FICHEROS
+        cp ejemplo1 ejemplo2
+    MOVER O RENOMBRAR FICHEROS
+        mv ejemplo3 ejemplo4
+
+
+COMANDOS DE GESTION DE PROCESOS
+    ps
+    ps aux
+    ps u -> procesos usuario
+    ps a -> todos usuarios
+    ps x -> procesos que corren sin terminal
+    top -> ver procesos en forma dinamica
+
+COMANDOS DE BUSQUEDA
+    find /  -> buscar desde raiz
+    find .  -> buscar desde elmismo directorio
+    find ~  ->  buscar dentro de la carpeta home
+    find --help
+    find . -name "*.txt"
+    find . -name -i ejemplo.txt
+
+    locate mas rapido que find
+    locate --help
+    sudo updatedb actualizar base de datos para realizar busquedas
+
+
+COMPRIMIR Y DESCOMPRIMIR FICHEROS
+    zip archivo.zip ejemplo.txt
+    VER ARCHIVOS DENTRO DEL ZIP
+    unzip -v archivo.zip
+    DESCOMPRIMIR
+    unzip archivo.zip
+    tar -cvf archivo.tar ejemplo.txt
+    DESCOMPRIMIR ARCHIVOS TAR
+    tar -xvf archivo.tar
+    COMPRIMIR TAR.GZ
+    tar -czvf archivo.tar.gz ejemplo.txt
+    DESCOMPRIMIR TAR.GZ
+    tar -xzvf archivo.tar.gz
+
+
+COMANDO DE REDES Y CONEXIONES
+    ifconfig (mostrar informacion sobre las conexiones)
+    sudo ifconfig enp1s0 down (apagar la interface)
+    sudo ifconfig enp1s0: up (subir interface)
+    iwconfig (solo muestras las interfaces inalambricas de red)
+    ip a
+    hostname-i , hostname -I
+    ping 127.0.0.1
+        ttl de 60 -> maquinas en linux
+        ttl de 120 -> maquinas en windows
+
+
+PERMISOS EN GNU/LINUX
+    chmod
+        x->1
+        r->4
+        w->2
+    chmod archivo.txt +777 (permisos de usuario 3,permisos de grupo 3,permisos otros 3)
+    d -> directorio
+    l -> enlace
+    - -> fichero
+    CAMBIAR DE USUARIO AL FICHERO
+    chown  (nuevo propietario) ejemplo.txt
+    chgrp (nuevo grupo) ejemplo.txt
+
+
+PERMISOS ESPECIALES EN LINUX
+    sticky bit -> t
+    suid id
+
+
+ATRIBUTOS DE FICHEROS
+    touch ejemplo.txt
+    lsattr
+    chattr (agregar atirbutos especiales)
+    chattr +i ejemplo.txt (fichero inmutable)
+
+
