@@ -1,0 +1,52 @@
+font->
+	size->tamaño
+	weight->grosor
+	style->cursiva
+	letter-spacing	-> espacio entre caracteres
+	line-height	-> espaciado entre lineas
+	text-decoration	-> none, overline, underline
+	text-transform	-> mayusculas
+	text-shadow	-> sombras
+	vertical-align	-> alineacion vertical
+	overflow	-> desbordamiento del contenido
+
+flex->
+	flex-direction	-> direccion
+	justyfi-content	-> alineacion en direccion principal
+	align-items	-> alineacion en direccion secundaria
+	align-self	-> alineacion individual en direccion secundaria
+	align-content	->alineacion e la direccion secundaria varias lineas
+	flex-wrap	->wrap
+
+list->
+	list-style-type -> tipo de marcador
+
+	outline		-> contorno
+	outline-offset	-> tamaño del contorno
+
+Pseudo-elementos->
+
+	::after		-> inserta contenido despues del elemento
+	::before	-> inserta antes contenido
+	::first-letter	-> primera letra
+	::first-line	->primera linea de texto
+	content
+
+Pseudo-clases->
+	
+	:active
+	:first-child	-> primer hijo
+	:focus		-> foco del elemento
+	:hover		-> cuando se pasa el raton
+	:link		->	enlaces no visitados
+	:visisted	->
+
+grid->
+	justify-content	->eje principal los contenido
+	align-content	->eje secundario contenido
+	justify-items	-> distribuye elementos en el eje principal
+	align-items	-> distribuye elementos en el eje secundario
+	HIJOS
+	JUSTIFY-SELF	-> EJE HORIZONTAL
+	ALIGN-SELF	->EJE SECUNDARIO	
+
