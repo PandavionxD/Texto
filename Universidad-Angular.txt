@@ -1,10 +1,15 @@
 Angular
 Comandos Angular (iniciar royecto angular)
     ng new (mi-primera-app) -> puede ser el nombre que le des
+    
 ejecutar el proyecto
     ng serve -o ->(levantar un servidor web)
+    ng serve -p 5200
+    ng serve -0  --host 192.168.1.26 --port 4201
+    
 recrear carpeta node_modules
     sudo npm install
+    
 extensiones para visual studio code
     angular languaje service
     angular files
@@ -13,26 +18,15 @@ extensiones para visual studio code
     emmet -> angular2 typescript
     bracket pair colorizer 2
     bootstrap
+    
 Compilar archivos TypeScript
         tsc (nombre del archivo en ts (TypeScript))
         tsc -init (cambiar ajustes de TypeScript)
     compilar de acuerdo a como se crean
         tsc -w
+        
 Crear componentes desde Angular
-ng generate component (nombre del componente)       // ng g c (nombre del component)
+    ng generate component (nombre del componente)       // ng g c (nombre del component)
 
-instalar bootstrap
-npm install bootstrap --save
-
-configurar bootstrap en angular
-npm install bootstrap --save
-en angular.json
-"styles": [
-  "node_modules/bootstrap/dist/css/bootstrap.min.css",
-  "src/styles.scss"
-],
-"scripts": [
-  "node_modules/jquery/dist/jquery.min.js",
-  "node_modules/@popperjs/core/dist/umd/popper.min.js",
-  "node_modules/bootstrap/dist/js/bootstrap.min.js"
-]
+Compilar trabajo en Angular
+    ng build

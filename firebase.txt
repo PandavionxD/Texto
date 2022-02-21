@@ -1,0 +1,9 @@
+instalar esto para usar hoosting
+    npm install -g firebase-tools
+revisar version
+    firebase -V
+    
+    firebase login
+    firebase init -> Escojemos el de hosting
+    firebase deploy -> subir archivos para el hsoting
+    

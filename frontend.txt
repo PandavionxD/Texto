@@ -1,0 +1,30 @@
+EXtensiones para Google Chrome
+    color picker
+    grid ruler
+    what font
+    viewport rize
+
+herramientas
+    dribble.com                         -> ver Diseños
+    awwwards.com                        -> ver diseños
+    grabient.com                        -> gradientes para sitio web
+    webgradients                        -> 
+    cssportal.com                       -> css
+    cssmatic.com                        ->box shadows
+    css clip-path maker                 -> modificar figuras
+    simple light box                    -> lightbox crear un slider
+    aos                                 -> Libreria de scroll
+    swiperjs                            -> slider
+    materialize                         -> slider
+    get waves                           -> ondas
+    
+Descargar imagenes
+    pexels.com
+    pixbay.com
+    
+Descargar iconos
+    fontawesome
+    ionicFramework
+    
+Ver sitios webs
+    hugo framework
